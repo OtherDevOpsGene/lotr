@@ -2,6 +2,9 @@
 
 A python app that uses an API with a key.
 
+Accompanying slides are available at 
+https://www.slideshare.net/slideshow/kcdc-keeping-secrets-out-of-your-pipeline/269947553.
+
 ## Branches
 
 The different branches demonstrate different approaches to dealing with the
