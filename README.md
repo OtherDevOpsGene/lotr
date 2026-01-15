@@ -9,7 +9,6 @@ API key securely.
 
 * `main`- No key or authentication needed.
 * `pre-commit` - Hard-coded secret with `pre-commit` hook.
-* `vault` - Retrieves the API key from [HCP Vault Secrets](https://hashicorp.com/products/vault).
 * `aws-secrets-manager` - Retrieves the API key from [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/).
 
 ## The One API to rule them all
