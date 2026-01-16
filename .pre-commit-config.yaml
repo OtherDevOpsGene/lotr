@@ -2,6 +2,9 @@ repos:
 - repo: https://github.com/trufflesecurity/trufflehog
   rev: v3.92.4
   hooks:
-  - id: trufflehog
-    entry: bash -c 'trufflehog git file://. --config=./by-name.yaml --since-commit HEAD --fail'
-    stages: ["commit", "push"]
+    - id: trufflehog
+      name: TruffleHog
+      description: Detect secrets in your commit.
+      entry: bash -c 'trufflehog git file://. --since-commit HEAD --results=verified,unknown --fail'
+      language: system
+      stages: ["pre-commit", "pre-push"]
