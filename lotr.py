@@ -3,7 +3,7 @@
 import json
 import requests
 
-APIKEY = 'secret'
+APIKEY = 'YFk-oAydcBfl0AP6sYTg'
 CHARACTER = 'Isildur'
 
 session = requests.Session()
